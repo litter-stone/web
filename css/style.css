@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+   }
+body{
+    background:url(../images/14.jpg);
+}
+.phone{
+    width:322px;
+    height:578px;
+    margin:0 auto;
+    position:relative;
+}
+.phone .p_top{
+    height:42px;
+    background:url(../images/phone_top.png) no-repeat;
+}
+.phone .p_info{
+    height:20px;
+    background:url(../images/top.gif) no-repeat;
+}
+.phone .p_title{
+    height:35px;
+    background:#000;
+    font:600 16px 微软雅黑;
+    line-height:30px;
+    text-align:center;
+    color:#fff;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+}
+.phone .p_con{
+    width:320px;
+    height:430px;
+    background:url(../images/bg.png) no-repeat;
+    background-size:cover;
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+    position:relative;
+    overflow:hidden;
+}
+.phone .p_bottom{
+    height:47px;
+    background:url(../images/phone_bottom.png) no-repeat;
+}
+.phone .p_music{
+    width:40px;
+    height:40px;
+    display:block;
+    background:url(../images/normalmusic.svg) no-repeat;
+    background-size:cover;
+    position:absolute;
+    top:110px;
+    left:270px;
+}
+.rotate{
+    -webkit-animation:xl 1s linear infinite;
+    -moz-animation:xl 1s linear infinite;
+    -ms-animation:xl 1s linear infinite;
+}
+textarea{
+    display:none;
+}
+.btn{
+    display:block;
+    width:20px;
+    height:50px;
+    font-size:20px;
+    color:#eee;
+    position:absolute;
+    top:50%;
+    margin-top:-25px;
+    text-decoration:none;
+}
+#next{
+    right:5px;
+}
+#prev{
+    left:15px;
+}
+#c_lists{
+    width:10000px;
+    position:absolute;
+}
+#c_lists .c_list{
+    height:430px;
+    width:320px;
+    overflow:hidden;
+    position:relative;
+    float:left;
+}
+#c_lists .c_list3 #w_img{
+    width:160px;
+    height:160px;
+    margin:50px auto;
+}
+#c_lists .c_list3 #w_img img{
+    width:160px;
+    height:160px;
+
+}
+#c_lists .c_list3 p{
+    text-align:center;
+    color:#eee;
+    font:700 24px 微软雅黑;
+}
+#c_lists .c_list1 #lrclist{
+    width:320px;
+    height:430px;
+    position:absolute;
+    top:120px;
+}
+#c_lists .c_list1 #lrclist li{
+    height:20px;
+    padding:10px;
+    text-align:center;
+    color:green;
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -ms-transition:all 0.3s ease;
+}
+#c_lists .c_list1 #lrclist li.hover{
+    color:red;
+    font-size:20px;
+    font-weight:800;
+}
+#c_lists .c_list2 #c_img{
+    width:140px;
+    border-radius:50%;
+    margin:10px auto;
+}
+#c_lists .c_list2 #c_img img{
+    width:140px;
+    height:140px;
+    display:block;
+    border-radius:50%;
+    transform:rotate(90deg);
+}
+#c_lists .c_list2 p{
+    color:#fff;
+    margin-top:40px;
+    padding:20px;
+    line-height:30px;
+}
+@-webkit-keyframes xl{
+    0%{
+        -webkit-transform:rotate(0);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@-moz-keyframes xl{
+    0%{
+        -webkit-transform:rotate(0);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@-ms-keyframes xl{
+    0%{
+        -webkit-transform:rotate(0);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:416px) {
+    .phone .p_top,.phone .p_info,.phone .p_bottom{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:320px){
+    .phone,.phone .p_con{
+        width:322px;
+        height:568px;
+    }
+    #c_lists .c_list{
+        width:322px;
+        height:568px;
+    }
+}
+
+@media screen and (min-width:322px) and (max-width:375px){
+    .phone,.phone .p_con{
+        width:376px;
+        height:628px;
+    }
+    #c_lists .c_list{
+        width:376px;
+        height:628px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:414px){
+    .phone,.phone .p_con{
+        width:415px;
+        height:737px;
+    }
+    #c_lists .c_list{
+        width:415px;
+        height:737px;
+    }
+}
+
