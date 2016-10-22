@@ -175,6 +175,9 @@ textarea{
     .phone .p_top,.phone .p_info,.phone .p_bottom{
         display:none;
     }
+    .phone .p_title{
+        border:0;
+    }
 }
 
 
@@ -182,6 +185,7 @@ textarea{
     .phone,.phone .p_con{
         width:324px;
         height:568px;
+        border:0;
     }
     #c_lists .c_list{
         width:324px;
@@ -193,6 +197,7 @@ textarea{
     .phone,.phone .p_con{
         width:378px;
         height:628px;
+        border:0;
     }
     #c_lists .c_list{
         width:378px;
@@ -204,6 +209,7 @@ textarea{
     .phone,.phone .p_con{
         width:417px;
         height:737px;
+        border:0;
     }
     #c_lists .c_list{
         width:417px;
