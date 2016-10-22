@@ -180,33 +180,33 @@ textarea{
 
 @media screen and (max-width:320px){
     .phone,.phone .p_con{
-        width:322px;
+        width:324px;
         height:568px;
     }
     #c_lists .c_list{
-        width:322px;
+        width:324px;
         height:568px;
     }
 }
 
 @media screen and (min-width:322px) and (max-width:375px){
     .phone,.phone .p_con{
-        width:376px;
+        width:378px;
         height:628px;
     }
     #c_lists .c_list{
-        width:376px;
+        width:378px;
         height:628px;
     }
 }
 
 @media screen and (min-width:376px) and (max-width:414px){
     .phone,.phone .p_con{
-        width:415px;
+        width:417px;
         height:737px;
     }
     #c_lists .c_list{
-        width:415px;
+        width:417px;
         height:737px;
     }
 }
